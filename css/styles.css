@@ -1,3 +1,7 @@
+@import url("fonts.css");
+@import url("normalize.css");
+
+
 *,
 *::before,
 *::after {
@@ -37,6 +41,7 @@ ol {
 a {
     text-decoration: none;
 }
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -318,7 +323,7 @@ body:has(.backdrop.is-open) {
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/background/bg-mob-min.jpg);
+        url(../images/background/bg-desc-min.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -335,17 +340,17 @@ body:has(.backdrop.is-open) {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/background/bg-mob@2x-min.jpg);
+            url(../images/background/bg-desc@2x-min.jpg);
     }
 }
 
+/* 
 @media only screen and (min-width: 768px) {
     .hero {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/background/bg-tab-min.jpg);
-        /* min-width: 768px; */
         padding: 112px 0;
     }
 }
@@ -379,7 +384,7 @@ only screen and (min-width: 1158px) and (min-resolution: 2dppx) {
                 rgba(46, 47, 66, 0.7)),
             url(../images/background/bg-desc@2x-min.jpg);
     }
-}
+} */
 
 /* .hero-container {
     min-width: 216px;
@@ -516,6 +521,7 @@ only screen and (min-width: 1158px) and (min-resolution: 2dppx) {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
 }
 
 @media only screen and (min-width: 1158px) {
@@ -564,18 +570,18 @@ only screen and (min-width: 1158px) and (min-resolution: 2dppx) {
     background: #fff;
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
     .team-item {
-        /* width: 264px;
-        flex: 0 0 auto; */
+        width: 264px;
+        flex: 0 0 auto;
     }
-}
+} */
 
-@media only screen and (min-width: 1158px) {
+/* @media only screen and (min-width: 1158px) {
     .team-item {
-        /* width: calc((100% - 24px * 3) / 4); */
+        width: calc((100% - 24px * 3) / 4);
     }
-}
+} */
 
 .team-user {
     object-fit: cover;
@@ -708,6 +714,7 @@ only screen and (min-width: 1158px) and (min-resolution: 2dppx) {
     width: 100%;
     object-fit: cover;
 }
+
 
 
 .portfolio-overlay {
